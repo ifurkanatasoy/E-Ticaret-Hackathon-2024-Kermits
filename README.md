@@ -1,3 +1,10 @@
+# Competition Scope
+The goal of the Teknofest E-Commerce Hackathon, sponsored by Trendyol, is to enhance product photos uploaded by local sellers and generate more professional product descriptions using Generative AI.
+
+> [!NOTE]
+> Special thanks to **Trendyol** for providing us with a productive and supportive working environment throughout the competition.
+
+
 # Quick Start Guide
 ## Requirements
  1. **Python:** To use this code you have to be using Python 3.10 or higher.
@@ -35,7 +42,7 @@ Our Streamlit application contains two tabs. The first tab is for background rem
 
 ### User Interface:
 <div align="center">
-<img src="https://github.com/ifurkanatasoy/Kermits/blob/e034cdbe533bbd2270edf8bc5d77102e1902494e/assets/backgrond-removal-tab.png" width="1000" />
+<img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/background-removal-tab.png" width="1000" />
 </div>
 
 
@@ -47,7 +54,7 @@ Our Streamlit application contains two tabs. The first tab is for background rem
 
  | Before | After |
 |---------|---------|
-| <img src="https://github.com/ifurkanatasoy/Kermits/blob/fa29ea324f890130d2ef49e99039b70d4275b69f/assets/coke_before.jpeg" width="300" /> | <img src="https://github.com/ifurkanatasoy/Kermits/blob/fa29ea324f890130d2ef49e99039b70d4275b69f/assets/coke-afer.jpg" width="300" /> |
+| <img src="https://github.com/ifurkanatasoy/Kermits/blob/fa29ea324f890130d2ef49e99039b70d4275b69f/assets/coke_before.jpeg" width="300" /> | <img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/coke-after.jpg" width="300" /> |
 
 </div>
 
@@ -85,7 +92,7 @@ In addition to the object and background removal features already present in our
 ### Result:
 
 <div align="center">
-<img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/upscalling.png" width="1000" />
+<img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/upscaling.png" width="1000" />
 </div>
 
 
@@ -138,3 +145,5 @@ This project makes use of the following models:
 
 - **[Abdelrahman Wahdan](https://github.com/Abdurrahman-Wahdan)**
 - **[İsmail Furkan Atasoy](https://github.com/ifurkanatasoy)**
+
+
