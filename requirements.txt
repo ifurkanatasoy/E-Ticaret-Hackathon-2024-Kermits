@@ -1,0 +1,12 @@
+requests==2.32.3
+numpy==1.26.4
+streamlit==1.39.0
+pillow==10.4.0
+streamlit-drawable-canvas==0.9.3
+matplotlib==3.9.2
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.45.0
+aura_sr==0.0.4
+huggingface_hub==0.25.1
+diffusers==0.30.3
