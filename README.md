@@ -1,12 +1,11 @@
-# Kermits
-## Quick Start Guide
-### Requirements
+# Quick Start Guide
+## Requirements
  1. **Python:** To use this code you have to be using Python 3.10 or higher.
  2. **Dependencies:** Install dependencies from the `requirements.txt` file using the following code:
 ```bash
 pip install -r requirements.txt
 ```
-### Running the Application
+## Running the Application
 To get started, follow these steps:
 1. Now to run the code, you need to use Streamlit. Run the `app.py` file using the following code:
 ```bash
@@ -26,15 +25,22 @@ after setting it up a link will pop up indicated with `Forwarding`, click it to 
 > You have to Sign up for ngrok to able to run it. Obtain your authtoken from Your Autotoken page.
 Now you're ready to go and run the code 🎉
 
-## Overview of Code Functionality
+# Overview of Code Functionality
 
-### Background Removal
+## Background Removal
 Our Streamlit application contains two tabs. The first tab is for background removal. To get the output, you simply need to:
 1. Upload an image of the product.
 2. Enter the description of the product you want.
 3. Choose the language in which you want the output.
 
-#### Result:
+### User Interface:
+<div align="center">
+<img src="https://github.com/ifurkanatasoy/Kermits/blob/e034cdbe533bbd2270edf8bc5d77102e1902494e/assets/backgrond-removal-tab.png" width="1000" />
+</div>
+
+
+
+### Result:
 
 <div align="center">
 
@@ -45,7 +51,7 @@ Our Streamlit application contains two tabs. The first tab is for background rem
 
 </div>
 
-### Object Removal
+## Object Removal
 The second tab provides an object removal feature. Here’s how it works:
 1. Upload an image.
 2. A screen will pop up displaying two images:
@@ -55,8 +61,14 @@ The second tab provides an object removal feature. Here’s how it works:
 3. Use your cursor to draw on the "Draw mask" image, marking the area you want to remove. You will see the generated mask on the right.
 4. After that, similar to the first tab, enter your description, choose the language for the output, and click the "Send" button.
 
+### User Interface:
 
-#### Result:
+<div align="center">
+<img src="https://github.com/ifurkanatasoy/Kermits/blob/e034cdbe533bbd2270edf8bc5d77102e1902494e/assets/object-removal-tab.png" width="1000" />
+</div>
+
+
+### Result:
 
 <div align="center">
 
@@ -67,8 +79,10 @@ The second tab provides an object removal feature. Here’s how it works:
 
 </div>
 
-### Upscaling
+## Upscaling
 In addition to the object and background removal features already present in our application, we've introduced an image upscaling function. After removing an object or background, the image is automatically upscaled to enhance its resolution. This ensures that both our model and the user can view even the finest details with clarity, delivering a more refined and high-quality result. This enhancement improves the overall user experience by providing sharper and more detailed images post-processing.
+
+### Result:
 
 <div align="center">
 <img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/upscalling.png" width="1000" />
@@ -76,24 +90,24 @@ In addition to the object and background removal features already present in our
 
 
 
-### Text Generation
-Finally, we have a text generation feature in both tabs. After you hit the "Send" button, our models will generate a description for your product based on both the image and the prompt provided.
+## Text Generation
+We've also added a powerful text generation feature in both tabs of our application. After you hit the "Send" button, our models will generate a detailed product description based on both the image and the prompt you provide. By leveraging the Llama-3.2-11B-Vision model and the Gemma-2-27B-IT model together, we enhance the generated text by combining insights extracted from the image with the user's input. Llama extracts additional contextual information from the image, while Gemma refines and polishes the output, ensuring professional and high-quality descriptions.
 
-#### Result:
+### Result:
 
 <div align="center">
 <img src="https://github.com/ifurkanatasoy/Kermits/blob/fa29ea324f890130d2ef49e99039b70d4275b69f/assets/generated_text.jpeg" width="1000" />
 </div>
 
 
-## Used System Specifications
+# Used System Specifications
 - 1 NVIDIA A100-SXM4-40GB GPU
 - 85 GB RAM
 - 12 vCPUs
 >  [!WARNING]  
 >  You may experience issues running this on less powerful hardware.
 
-## Models Used
+# Models Used
 
 This project makes use of the following models:
 
@@ -120,7 +134,7 @@ This project makes use of the following models:
 > [!NOTE] 
 > Please ensure compliance with each model's license when using or distributing this project.
 
-## Contributors
+# Contributors
 
 - **[Abdelrahman Wahdan](https://github.com/Abdurrahman-Wahdan)**
 - **[İsmail Furkan Atasoy](https://github.com/ifurkanatasoy)**
