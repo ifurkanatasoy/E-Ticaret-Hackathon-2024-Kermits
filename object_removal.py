@@ -17,7 +17,7 @@ def remove_object(image, mask_image):
     image.save("output1.png")  
     
     # Set the prompt to guide the inpainting model to remove the object
-    prompt = "remove the object"  
+    prompt = "fill with the background"  
     
     # Set a random seed for reproducibility on GPU
     generator = torch.Generator(device="cuda").manual_seed(0)  
