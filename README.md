@@ -4,6 +4,8 @@ The goal of the Teknofest E-Commerce Hackathon, sponsored by Trendyol, is to enh
 > [!NOTE]
 > Special thanks to **Trendyol** for providing us with a productive and supportive working environment throughout the competition.
 
+# Presentation 
+You can view the presentation [here](https://github.com/ifurkanatasoy/Kermits/blob/f8edc7d79ddb6fffb21aee092858ebddc808fb7f/Presentation.pptx).
 
 # Quick Start Guide
 ## Requirements
