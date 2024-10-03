@@ -42,7 +42,7 @@ Our Streamlit application contains two tabs. The first tab is for background rem
 
 ### User Interface:
 <div align="center">
-<img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/background-removal-tab.png" width="1000" />
+<img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/background-removal-tab.jpeg " width="1000" />
 </div>
 
 
@@ -98,12 +98,14 @@ In addition to the object and background removal features already present in our
 
 
 ## Text Generation
-We've also added a powerful text generation feature in both tabs of our application. After you hit the "Send" button, our models will generate a detailed product description based on both the image and the prompt you provide. By leveraging the Llama-3.2-11B-Vision model and the Gemma-2-27B-IT model together, we enhance the generated text by combining insights extracted from the image with the user's input. Llama extracts additional contextual information from the image, while Gemma refines and polishes the output, ensuring professional and high-quality descriptions.
+We've added a powerful text generation feature in both tabs of our application. After hitting the "Send" button, our models generate a detailed product description based on both the provided image and prompt. So to say, the Llama 3.2-11B-Vision model serves as the eyes of the Gemma-2-27B-IT model. We produce professional results with Gemma by incorporating the information extracted by the Llama Vision model. 
+
+As you can see in the first example, although we did not explicitly state that the product is "sugar-free," the Llama Vision model correctly identified it as such.
 
 ### Result:
 
 <div align="center">
-<img src="https://github.com/ifurkanatasoy/Kermits/blob/fa29ea324f890130d2ef49e99039b70d4275b69f/assets/generated_text.jpeg" width="1000" />
+<img src="https://github.com/ifurkanatasoy/Kermits/blob/main/assets/generated_text.jpeg" width="1000" />
 </div>
 
 
